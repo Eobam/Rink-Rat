@@ -1,0 +1,10 @@
+{
+  "name": "RinkRat",
+  "version": "1.0.0",
+  "description": "An innovating way to rent ice hockey rinks in North America",
+  "main": "index.js",
+  "repository": "https://github.com/Eobam/Rink-Rat.git",
+  "author": "Elliott",
+  "license": "MIT",
+  "private": false
+}
