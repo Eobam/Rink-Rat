@@ -7,6 +7,9 @@ const port = 3000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
+// Serve static HTML files (for your signup.html, etc.)
+app.use(express.static('.'));
+
 // In-memory storage for users (replaces MySQL)
 let users = [];
 
