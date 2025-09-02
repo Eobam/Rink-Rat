@@ -1,13 +1,28 @@
 {
-  "name": "RinkRat",
+  "name": "rinkrat",
   "version": "1.0.0",
   "description": "An innovating way to rent ice hockey rinks in North America",
   "main": "index.js",
-  "repository": "https://github.com/Eobam/Rink-Rat.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eobam/Rink-Rat.git"
+  },
   "author": "Elliott",
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.4",
     "puppeteer": "^24.17.1"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Eobam/Rink-Rat/issues"
+  },
+  "homepage": "https://github.com/Eobam/Rink-Rat#readme"
 }
