@@ -7,7 +7,18 @@ const main = async () => {
     const page = await browser.newPage();
     await page.goto(url);
 
-    
+    const allArticles = await page.evaluate(() => {
+        const articles = document.querySelectorAll('article');
+
+        return Array.from(artcles).slice(0, 3).map((article) => {
+            const title = article.querySelector('h3').innerText;
+            const url = article.querySelector('a').href;
+            return { title, url };
+        })
+    });
+
+    console.log(allArticles);
+
 }
 
 main();
