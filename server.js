@@ -15,8 +15,8 @@ app.use(express.static('.'));
 const db = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "",           // XAMPP default (empty password)
-  database: "signupDB"    // Your database name
+  password: "nuhuhbro",    // Replace with your actual MySQL password
+  database: "signupDB"               // Your database name
 });
 
 // Connect to database
